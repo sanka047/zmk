@@ -1,6 +1,11 @@
 name: Tests
 
 on:
+  workflow_dispatch:
+    paths:
+      - ".github/workflows/test.yml"
+      - "app/tests/**"
+      - "app/src/**"
   push:
     paths:
       - ".github/workflows/test.yml"
