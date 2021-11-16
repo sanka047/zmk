@@ -49,4 +49,9 @@
 		;
 	};
 
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+        label = "BATTERY";
+    };
+
 };
